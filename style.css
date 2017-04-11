@@ -1,0 +1,102 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #e0e0e0;
+}
+
+header {
+	background-color: #881616;
+}
+
+header h1 {
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+header a {
+	text-decoration: none;
+}
+
+#navigation {
+	background-color: #b71c1c;
+}
+
+#navigation ul li a {
+	text-decoration: none;
+	font-size: 2rem;
+	color: #ef9a9a;
+}
+
+#navigation ul li a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+.main_content,  .characters_container, .corporaciones  {
+	background-color: white;
+	box-shadow: 0.2rem 0.2rem 0.5rem gray;
+}
+
+.main_content h1 {
+	border-bottom: 0.1rem solid #b71c1c;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.main_content h2 {
+	font-size: 1.3rem;
+	color: #212121;
+	font-weight: 500;
+}
+
+.main_content h3 {
+	font-size: 1.3rem;
+	border-bottom: 0.1rem solid #b71c1c;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+
+.main_content h4 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding-bottom: 0.5rem;
+}
+
+ .main_content p {
+ 	line-height: 1.8rem;
+ 	font-size: 1.2rem;
+ }
+
+ .characters_container img:hover, .corporaciones img:hover {
+ 	border-bottom: 1rem solid #881616;
+ 	margin-bottom: 0;
+ }
+
+  .characters_container img, .corporaciones img:hover{
+ 	transition: all 0.1s;
+ }
+
+.quote {
+	font-style: italic;
+	border-left: 0.2rem solid gray;
+	border-right: 0.2rem solid gray;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-bottom: 1rem;
+	color: gray;
+}
+
+.quote_author {
+	text-align: right;
+}
+
+ footer {
+ 	background-color: #616161;
+ }
+
+ footer p {
+ 	text-align: center;
+ }
